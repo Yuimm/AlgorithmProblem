@@ -1,2 +1,7 @@
-package com.hct.singleton;public class Main {
+package com.hct.singleton;
+
+public class Main {
+    public static void main(String[] args) {
+          
+    }
 }

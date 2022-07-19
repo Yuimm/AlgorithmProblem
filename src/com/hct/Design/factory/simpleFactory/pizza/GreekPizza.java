@@ -1,4 +1,4 @@
-package com.hct.Design.factory.pizza;
+package com.hct.Design.factory.simpleFactory.pizza;
 
 public class GreekPizza extends Pizza{
     @Override

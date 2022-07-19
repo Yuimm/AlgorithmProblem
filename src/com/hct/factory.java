@@ -1,2 +1,4 @@
-package com.hct;public class factory {
+package com.hct;
+
+public class factory {
 }

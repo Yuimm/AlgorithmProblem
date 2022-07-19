@@ -1,8 +1,8 @@
-package com.hct.Design.factory.order;
+package com.hct.Design.factory.simpleFactory.order;
 
-import com.hct.Design.factory.pizza.CheesePizza;
-import com.hct.Design.factory.pizza.GreekPizza;
-import com.hct.Design.factory.pizza.Pizza;
+import com.hct.Design.factory.simpleFactory.pizza.CheesePizza;
+import com.hct.Design.factory.simpleFactory.pizza.GreekPizza;
+import com.hct.Design.factory.simpleFactory.pizza.Pizza;
 
 /**
  * 简单工厂类

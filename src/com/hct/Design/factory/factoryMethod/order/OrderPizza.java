@@ -1,31 +1,30 @@
-package com.hct.Design.factory.simpleFactory.order;
+package com.hct.Design.factory.factoryMethod.order;
+
+import com.hct.Design.factory.factoryMethod.pizza.Pizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class OrderPizza {
+public abstract class OrderPizza {
 
-//    public OrderPizza() {
-//        Pizza pizza = null;
-//        String orderType;
-//        do {
-//            orderType = getType();
-//            if (orderType.equalsIgnoreCase("greek")){
-//                pizza = new GreekPizza();
-//                pizza.setName("希腊披萨");
-//            }else if (orderType.equalsIgnoreCase("cheese")) {
-//                pizza = new CheesePizza();
-//                pizza.setName("奶酪披萨");
-//            }else {
-//                break;
-//            }
-//            pizza.prepare();
-//            pizza.bake();
-//            pizza.cut();
-//            pizza.box();
-//        }while (true);
-//    }
+    public OrderPizza() {
+        Pizza pizza = null;
+        String orderType;
+        do {
+            orderType = getType();
+            pizza = createPizza(orderType);
+
+            pizza.prepare();
+            pizza.bake();
+            pizza.cut();
+            pizza.box();
+
+        }while (true);
+    }
+
+    abstract Pizza createPizza(String orderType);
+
 
 
 

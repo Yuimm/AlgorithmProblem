@@ -1,4 +1,4 @@
-package com.hct.Design.factory.pizza;
+package com.hct.Design.factory.simpleFactory.pizza;
 
 public abstract class Pizza {
     protected String name;

@@ -1,9 +1,4 @@
-package com.hct.Design.factory.order;
-
-import com.hct.Design.factory.pizza.CheesePizza;
-import com.hct.Design.factory.pizza.GreekPizza;
-import com.hct.Design.factory.pizza.Pizza;
-import jdk.nashorn.internal.ir.VarNode;
+package com.hct.Design.factory.simpleFactory.order;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -32,7 +27,7 @@ public class OrderPizza {
 //        }while (true);
 //    }
 
-    
+
 
     private String getType() {
         try {
